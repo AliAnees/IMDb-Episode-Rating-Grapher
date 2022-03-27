@@ -1,4 +1,4 @@
-# IMDb Episode Ratings Grapher
+# IMDb Episode Rating Grapher
  Graphs the ratings of a tv show across its seasons and episodes. Provides a quick overview of how the quality of a show has progressed.
 
 ![1](https://user-images.githubusercontent.com/85778494/160304109-5c7c7b02-4c03-4b06-ba19-a49e60b893de.PNG)
