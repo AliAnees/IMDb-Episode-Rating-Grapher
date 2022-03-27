@@ -1,4 +1,4 @@
-/*IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'imdbData')
+IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'imdbData')
 BEGIN
     CREATE DATABASE imdbData;
 END;
@@ -116,4 +116,3 @@ FROM basics
     INNER JOIN ratings 
         ON basics.id = ratings.id
             WHERE basics.titleType != 'tvEpisode';
-*/
