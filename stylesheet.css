@@ -1,0 +1,47 @@
+main {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+body {
+    background-image: url('https://www.teahub.io/photos/full/43-435957_dark-blue-green-gradient.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    margin: 50px auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid white;
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+#search-input {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    backdrop-filter: blur(6px);
+}
+
+table thead th {
+    color: white;
+}
+
+canvas#myChart {
+    background-color: white;
+  }

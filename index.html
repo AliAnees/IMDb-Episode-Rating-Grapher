@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>IMDb Episode Grapher</title>
+    <script src="require.js"></script>
+</head>
+<body>
+    <main>
+        <h1 style="font-size:50px; margin:50px;">IMDb Episode Rating Grapher</h1>
+        <div>
+        <input placeholder="Name of Show" id="search-input">
+        </div>
+        
+        <table id="table">
+            <thead>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Genres</th>
+                <th>Rating</th>
+                <th>Votes</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <canvas id="myChart" width="7" height="4"></canvas>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
